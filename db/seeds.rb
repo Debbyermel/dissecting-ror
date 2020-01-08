@@ -21,7 +21,7 @@ puts "5 skill created"
 
 9.times do |portfolio_item|
   Portfolio.create!(
-    title: "Item #{portfolio_item}",
+    tile: "Item #{portfolio_item}",
     subtitle: 'My service',
     body:'Vestibulum ante ipsum primis in faucibus orci
     luctus et ultrices posuere cubilia Curae;

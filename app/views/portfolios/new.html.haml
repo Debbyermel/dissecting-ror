@@ -1,0 +1,12 @@
+%h1 Create a new portfolio item
+
+= simple_form_for @portfolio_item do |f|
+  .field
+    = f.input :tile
+
+  .field
+    = f.input :subtitle
+  .field
+    = f.input :body
+  .actions
+    = f.button :submit
